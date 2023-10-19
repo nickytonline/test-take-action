@@ -13,8 +13,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: take an issue
-        uses: nickytonline/take-action@testeroni
+        uses: bdougie/take-action@v1.6.1
         with:
           issueCurrentlyAssignedMessage: Thanks for being interested in this issue. It looks like this ticket is already assigned to a contributor.
-          blockingLabels: "needs-triage,blocked"
+          blockingLabels: "needs triage,blocked"
           token: ${{ secrets.GITHUB_TOKEN }}
