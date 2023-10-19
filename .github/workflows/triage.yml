@@ -16,5 +16,4 @@ jobs:
         uses: nickytonline/take-action@testeroni
         with:
           issueCurrentlyAssignedMessage: Thanks for being interested in this issue. It looks like this ticket is already assigned to a contributor.
-          blockingLabels: "needs-triage,blocked"
           token: ${{ secrets.GITHUB_TOKEN }}
