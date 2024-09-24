@@ -1,0 +1,7 @@
+# This file is generated automatically by OpenSauced pizza-cli. DO NOT EDIT. Stay saucy!
+#
+# Generated with command:
+# $ pizza generate codeowners test-take-action/ --tty-disable true
+
+.github/workflows/pizza.yml @nickytonline
+.sauced.yaml @nickytonline
